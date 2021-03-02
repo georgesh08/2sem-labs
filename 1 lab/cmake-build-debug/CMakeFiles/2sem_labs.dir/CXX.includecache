@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_BrokenLine.h
+vector
+-
+class_point.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_point.h
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_Chain.h
+vector
+-
+class_point.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_point.h
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_Polygon.h
+vector
+-
+class_point.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_point.h
+class_Chain.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_Chain.h
+math.h
+-
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_RegularPolygon.h
+cmath
+-
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_Trapezoid.h
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_Triangle.h
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_point.h
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/main.cpp
+iostream
+-
+class_point.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_point.h
+class_Chain.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_Chain.h
+class_BrokenLine.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_BrokenLine.h
+class_Polygon.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_Polygon.h
+class_Trapezoid.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_Trapezoid.h
+class_Triangle.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_Triangle.h
+class_RegularPolygon.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/class_RegularPolygon.h
+

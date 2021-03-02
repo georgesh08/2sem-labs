@@ -1,0 +1,3 @@
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/cmake-build-debug/CMakeFiles/2sem_labs.dir
+C:/Users/geo02/OneDrive/Desktop/2sem labs/1 lab/cmake-build-debug/CMakeFiles/edit_cache.dir
