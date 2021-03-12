@@ -33,7 +33,7 @@ int main() {
     chain1[1] = c;
     chain1[2] = br[1];
     Chain chain2 = chain1;
-    std::cout << "We got chain2, it's points are:";
+    std::cout << "We got chain2, it's points are: ";
     for (int i = 0; i < chain2.size(); i++)
         std::cout << " (" << chain2[i].GetX() << ", " << chain2[i].GetY() << ")";
     Chain chain3(chain1);

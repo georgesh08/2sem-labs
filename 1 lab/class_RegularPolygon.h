@@ -9,7 +9,7 @@ private:
         return sqrt(pow(vec.GetX(), 2) + pow(vec.GetY(), 2));
     }
 public:
-    bool isRegularPolygon(Chain chain_) {
+    bool isRegularPolygon(Chain &chain_) {
         Point ab(chain_[1].GetX() - chain_[0].GetX(), chain_[1].GetY() - chain_[0].GetY()),
                 bc(chain_[chain_.size() - 1].GetX() - chain_[0].GetX(),
                    chain_[chain_.size() - 1].GetY() - chain_[0].GetX());
@@ -27,7 +27,7 @@ public:
         return true;
     }
 
-    explicit RegularPolygon(const Chain &ch) : Polygon(ch) {
+    explicit RegularPolygon(Chain &ch) : Polygon(ch) {
         if (!isRegularPolygon(ch))
             std::cout << "Not a regular polygon.";
     }
@@ -36,6 +36,11 @@ public:
         if(this != &rp)
             this->chain = rp.chain;
         return *this;
+    }
+
+    double countSquare() override{
+        Point ab(chain[1].GetX() - chain[0].GetX(), chain[1].GetY() - chain[0].GetY());
+        return chain.size()*pow(vectorLength(ab),2)/(4 * tan(M_PI/chain.size()));
     }
 
     RegularPolygon(const RegularPolygon &rp) : Polygon(rp) {}

@@ -10,7 +10,9 @@ class Polygon {
 protected:
     Chain chain;
 
-    bool IsPolygon(Chain chain_) {
+    bool IsPolygon(Chain &chain_) {
+        if(chain_.size() == 0)
+            return false;
         int product;
         Point ab(chain_[0].GetX() - chain_[chain_.size() - 1].GetX(),
                  chain_[0].GetY() - chain_[chain_.size() - 1].GetY()), bc(chain_[1].GetX() - chain_[0].GetX(),
@@ -33,7 +35,7 @@ protected:
         return true;
     }
 public:
-    Polygon(const Chain &ch) {
+    Polygon(Chain &ch) {
         if (IsPolygon(ch))
             chain = ch;
     }
