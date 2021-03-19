@@ -19,6 +19,7 @@ int main() {
     std::cin >> num;
     std::cout << "Let's find p1/num: " << p1/num << std::endl;
     p3 *= p4;
-    std::cout << "Now p3 = p3*p4: " << p3;
+    std::cout << "Now p3 = p3*p4: " << p3 << std::endl;
+    std::cout << "p1 derivative is: " << p1.findDerivative();
     return 0;
 }

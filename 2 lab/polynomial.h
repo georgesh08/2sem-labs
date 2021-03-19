@@ -3,6 +3,8 @@
 
 #include <vector>
 #include <iostream>
+#include <algorithm>
+
 
 class Polynomial {
 private:
@@ -101,6 +103,17 @@ public:
         }
         this->coeff = tmp.coeff;
         return *this;
+    }
+
+    Polynomial findDerivative(){
+        Polynomial tmp = *this;
+        std::reverse(tmp.coeff.begin(), tmp.coeff.end());
+        tmp.coeff.resize(tmp.coeff.size()-1);
+        std::reverse(tmp.coeff.begin(), tmp.coeff.end());
+        for(int i = 0; i < tmp.coeff.size(); i++){
+            tmp.coeff[i] *= i+1;
+        }
+        return tmp;
     }
 
     friend std::ostream &operator<<(std::ostream &out, Polynomial p1);
