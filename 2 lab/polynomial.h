@@ -108,7 +108,7 @@ public:
     Polynomial findDerivative(){
         Polynomial tmp = *this;
         std::reverse(tmp.coeff.begin(), tmp.coeff.end());
-        tmp.coeff.resize(tmp.coeff.size()-1);
+        tmp.coeff.pop_back();
         std::reverse(tmp.coeff.begin(), tmp.coeff.end());
         for(int i = 0; i < tmp.coeff.size(); i++){
             tmp.coeff[i] *= i+1;
