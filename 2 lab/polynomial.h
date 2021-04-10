@@ -27,39 +27,32 @@ public:
     }
 
     bool operator==(const Polynomial &pol1) {
-        if (coeff.size() != pol1.coeff.size())
-            return false;
-        else {
-            for (int i = 0; i < coeff.size(); i++)
-                if (pol1.coeff[i] != coeff[i])
-                    return false;
-        }
-        return true;
+        return coeff == pol1.coeff;
     }
 
     bool operator!=(const Polynomial &pol1) {
         return !(*this == pol1);
     }
 
-    Polynomial operator/(int num) {
+    Polynomial operator/(double num) const {
         Polynomial tmp(*this);
         tmp/=num;
         return tmp;
     }
 
-    Polynomial &operator/=(int num) {
+    Polynomial &operator/=(double num) {
         for (int i = 0; i < coeff.size(); ++i)
             coeff[i] /= num;
         return *this;
     }
 
-    Polynomial operator+(const Polynomial &p1) {
+    Polynomial operator+(const Polynomial &p1) const {
         Polynomial tmp(*this);
         tmp += p1;
         return tmp;
     }
 
-    Polynomial operator-() {
+    Polynomial operator-() const {
         Polynomial tmp(coeff.size());
         for (int i = 0; i < coeff.size(); ++i) {
             tmp.coeff[i] = -coeff[i];
@@ -67,7 +60,7 @@ public:
         return tmp;
     }
 
-    Polynomial operator-(const Polynomial &p1) {
+    Polynomial operator-(const Polynomial &p1) const {
         Polynomial tmp(*this);
         tmp -= p1;
         return tmp;
@@ -89,14 +82,14 @@ public:
         return *this;
     }
 
-    Polynomial operator*(const Polynomial &p1) {
+    Polynomial operator*(const Polynomial &p1) const {
         Polynomial tmp(*this);
         tmp *= p1;
         return tmp;
     }
 
     Polynomial &operator*=(const Polynomial &p1) {
-        Polynomial tmp(coeff.size() + p1.coeff.size());
+        Polynomial tmp(coeff.size() + p1.coeff.size() - 1);
         for (int i = coeff.size()-1; i >= 0; --i) {
             for (int j = p1.coeff.size()-1; j >= 0; --j)
                 tmp[i + j] += coeff[i] * p1.coeff[j];
@@ -116,6 +109,7 @@ public:
         return tmp;
     }
 
+
     friend std::ostream &operator<<(std::ostream &out, Polynomial p1);
 
     friend std::istream &operator>>(std::istream &in, Polynomial &p2);
@@ -132,7 +126,10 @@ std::ostream &operator<<(std::ostream &out, Polynomial p1) {
 }
 
 std::istream &operator>>(std::istream &in, Polynomial &p2) {
-    for (int i = p2.coeff.size() - 1; i >= 0; --i) {
+    int n;
+    in >> n;
+    p2.coeff.resize(n);
+    for (int i = n - 1; i >= 0; --i) {
         in >> p2.coeff[i];
     }
     return in;
