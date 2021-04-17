@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/Data.h
+pugixml.hpp
+C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/pugixml.hpp
+map
+-
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/main.cpp
+iostream
+-
+pugixml.hpp
+C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/pugixml.hpp
+map
+-
+vector
+-
+Data.h
+C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/Data.h
+algorithm
+-
+math.h
+-
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/pugiconfig.hpp
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/pugixml.hpp
+pugiconfig.hpp
+C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/pugiconfig.hpp
+stddef.h
+-
+exception
+-
+iterator
+-
+iosfwd
+-
+string
+-
+
