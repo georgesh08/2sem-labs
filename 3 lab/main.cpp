@@ -32,16 +32,19 @@ int main() {
     string route_number;
     dict.find_max_route(route_length, route_number);
     cout << "Bus: Route number - " << route_number << ", number of stops - " << route_length << endl;
-    dict.clear();
     route_length = -1;
     dict.make_routes("Троллейбус",doc);
     dict.find_max_route(route_length, route_number);
     cout << "Trolleybus: Route number - " << route_number << ", number of stops - " << route_length << endl;
-    dict.clear();
     route_length = -1;
     dict.make_routes("Трамвай", doc);
     dict.find_max_route(route_length, route_number);
     cout << "Tram: Route number - " << route_number << ", number of stops - " << route_length << endl;
     //Task 2
+    cout << endl << "Task #2:" << endl;
+    route_length = -1;
+    dict.max_street_stops(doc);
+    dict.find_max_route(route_length, route_number);
+    cout << "Street name - " << route_number << ", number of stops - " << route_length << endl;
     return 0;
 }
