@@ -11,21 +11,19 @@ pugixml.hpp
 C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/pugixml.hpp
 map
 -
+vector
+-
+cmath
+-
 
 C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/main.cpp
 iostream
 -
 pugixml.hpp
 C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/pugixml.hpp
-map
--
-vector
--
 Data.h
 C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/Data.h
 algorithm
--
-math.h
 -
 
 C:/Users/geo02/OneDrive/Desktop/2sem labs/3 lab/pugiconfig.hpp

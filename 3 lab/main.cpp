@@ -1,47 +1,42 @@
 #include <iostream>
 #include "pugixml.hpp"
-#include <map>
-#include <vector>
 #include "Data.h"
 #include <algorithm>
-#include <math.h>
-
-
-using namespace std;
-
-double count_dist(double lat1, double long1, double lat2, double long2) {
-    const int EARTH_RADIUS = 6372795;
-    lat1 = lat1 * M_PI / 180;
-    long1 = long1 * M_PI / 180;
-    lat2 = lat2 * M_PI / 180;
-    long2 = long2 * M_PI / 180;
-    double delta = long2 - long1;
-    double tmp1 = cos(lat1) * cos(lat2) * pow(sin(delta / 2), 2);
-    double tmp2 = pow((lat2 - lat1) / 2, 2);
-    return 2 * asin(sqrt(tmp1 + tmp2)) * EARTH_RADIUS;
-}
+using std::cout, std::endl;
 
 int main() {
     system("chcp 65001");
     Data dict;
     pugi::xml_document doc;
+    freopen("answers.txt", "w", stdout);
     //Task 1
     cout << "Task #1:" << endl;
-    dict.make_routes("Автобус", doc);
+    dict.make_routes("Автобус", doc, 1);
     int route_length = -1;
     string route_number;
     dict.find_max_route(route_length, route_number);
     cout << "Bus: Route number - " << route_number << ", number of stops - " << route_length << endl;
     route_length = -1;
-    dict.make_routes("Троллейбус",doc);
+    dict.make_routes("Троллейбус",doc, 1);
     dict.find_max_route(route_length, route_number);
     cout << "Trolleybus: Route number - " << route_number << ", number of stops - " << route_length << endl;
     route_length = -1;
-    dict.make_routes("Трамвай", doc);
+    dict.make_routes("Трамвай", doc, 1);
     dict.find_max_route(route_length, route_number);
     cout << "Tram: Route number - " << route_number << ", number of stops - " << route_length << endl;
     //Task 2
     cout << endl << "Task #2:" << endl;
+    dict.make_routes("Автобус", doc, 2);
+    dict.count_max_route();
+    dict.find_max("Bus");
+    dict.make_routes("Троллейбус", doc, 2);
+    dict.count_max_route();
+    dict.find_max("Trolleybus");
+    dict.make_routes("Трамвай", doc, 2);
+    dict.count_max_route();
+    dict.find_max("Tram");
+    //Task 3
+    cout << endl << "Task #3:" << endl;
     route_length = -1;
     dict.max_street_stops(doc);
     dict.find_max_route(route_length, route_number);

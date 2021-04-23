@@ -1,0 +1,12 @@
+Task #1:
+Bus: Route number - 211, number of stops - 126
+Trolleybus: Route number - 1, number of stops - 77
+Tram: Route number - 27, number of stops - 74
+
+Task #2:
+Bus: Route number - 487, distance - 79.6621
+Trolleybus: Route number - 1, distance - 21.7745
+Tram: Route number - 6, distance - 21.2724
+
+Task #3:
+Street name - Приморское ш., number of stops - 100
