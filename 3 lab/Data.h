@@ -11,7 +11,7 @@ using namespace std;
 class Data {
 public:
 
-    double count_dist(double lat1, double long1, double lat2, double long2) {
+    static double count_dist(double lat1, double long1, double lat2, double long2) {
         const int EARTH_RADIUS = 6372795;
         lat1 = lat1 * M_PI / 180;
         long1 = long1 * M_PI / 180;
@@ -112,10 +112,10 @@ public:
         }
     }
 
-    void find_max(string type_of_vehicle) {
+    void find_max(string const& type_of_vehicle) {
         double max = -1;
         string name;
-        for (auto elem : route_dist)
+        for (auto &elem : route_dist)
             if (elem.second > max) {
                 max = elem.second;
                 name = elem.first;
