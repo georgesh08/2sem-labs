@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/4 lab/STL_Algorithms.hpp
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/4 lab/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+STL_Algorithms.hpp
+C:/Users/geo02/OneDrive/Desktop/2sem labs/4 lab/STL_Algorithms.hpp
+
