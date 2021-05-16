@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/5 lab/Circular_buffer.hpp
+
+C:/Users/geo02/OneDrive/Desktop/2sem labs/5 lab/main.cpp
+iostream
+-
+Circular_buffer.hpp
+C:/Users/geo02/OneDrive/Desktop/2sem labs/5 lab/Circular_buffer.hpp
+
