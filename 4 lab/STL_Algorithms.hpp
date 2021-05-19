@@ -68,11 +68,10 @@ namespace stl_alg {
     template<class Iterator, typename T>
     Iterator find_backward(Iterator first, Iterator last, const T &predicate_) {
         Iterator tmp = last;
-        --tmp;
         while (tmp != first) {
+            --tmp;
             if (*tmp == predicate_)
                 return tmp;
-            --tmp;
         }
         return last;
     }
@@ -91,13 +90,13 @@ namespace stl_alg {
 
     template<class InputIterator, class Predicate>
     bool is_palindrome(InputIterator first, InputIterator last, Predicate predicate_) {
-        InputIterator tmp = last;
-        --last;
-        while(first != tmp) {
+        while(first != last) {
+            --last;
+            if(first == last)
+                return true;
             if (!predicate_(*first, *last))
                 return false;
             ++first;
-            --last;
         }
         return true;
     }
