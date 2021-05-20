@@ -63,7 +63,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../C++" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4 lab" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="5_lab" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="5_lab" TARGET_NAME="5_lab" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="5_lab" RUN_TARGET_NAME="5_lab">
@@ -88,7 +89,9 @@
       <workItem from="1620480615762" duration="2190000" />
       <workItem from="1620658708610" duration="9865000" />
       <workItem from="1621068037636" duration="708000" />
-      <workItem from="1621165935105" duration="17490000" />
+      <workItem from="1621165935105" duration="20514000" />
+      <workItem from="1621277597195" duration="3057000" />
+      <workItem from="1621362897734" duration="19042000" />
     </task>
     <servers />
   </component>
@@ -108,36 +111,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="136" key="FileChooserDialogImpl" timestamp="1621168425312">
+    <state x="421" y="136" key="FileChooserDialogImpl" timestamp="1621420094988">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="421" y="136" key="FileChooserDialogImpl/0.40.1280.680@0.40.1280.680" timestamp="1621168425312" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1621195201694">
+    <state x="421" y="136" key="FileChooserDialogImpl/0.40.1280.680@0.40.1280.680" timestamp="1621420094988" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1621523959309">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.40.1280.680@0.40.1280.680" timestamp="1621195201694" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1621195201694">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.40.1280.680@0.40.1280.680" timestamp="1621523959309" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1621523959309">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.40.1280.680@0.40.1280.680" timestamp="1621195201694" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1621195201694">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.40.1280.680@0.40.1280.680" timestamp="1621523959309" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1621523959309">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.40.1280.680@0.40.1280.680" timestamp="1621195201694" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1621195201694">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.40.1280.680@0.40.1280.680" timestamp="1621523959309" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1621523959309">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.40.1280.680@0.40.1280.680" timestamp="1621195201694" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>10</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.40.1280.680@0.40.1280.680" timestamp="1621523959309" />
+    <state x="142" y="40" key="SettingsEditor" timestamp="1621522937404">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="142" y="40" key="SettingsEditor/0.40.1280.680@0.40.1280.680" timestamp="1621522937404" />
+    <state x="297" y="171" key="run.anything.popup" timestamp="1621521558607">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="297" y="171" key="run.anything.popup/0.40.1280.680@0.40.1280.680" timestamp="1621521558607" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1621373474819">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.40.1280.680@0.40.1280.680" timestamp="1621373474819" />
   </component>
 </project>
