@@ -33,6 +33,7 @@
       <change beforePath="$PROJECT_DIR$/../3 lab/cmake-build-debug/3_lab.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../3 lab/cmake-build-debug/3_lab.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3 lab/cmake-build-debug/CMakeFiles/3_lab.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../3 lab/cmake-build-debug/CMakeFiles/3_lab.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3 lab/cmake-build-debug/CMakeFiles/3_lab.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../3 lab/cmake-build-debug/CMakeFiles/3_lab.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Circular_buffer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Circular_buffer.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/5_lab.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/5_lab.exe" afterDir="false" />
@@ -72,9 +73,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -91,7 +92,8 @@
       <workItem from="1621068037636" duration="708000" />
       <workItem from="1621165935105" duration="20514000" />
       <workItem from="1621277597195" duration="3057000" />
-      <workItem from="1621362897734" duration="19042000" />
+      <workItem from="1621362897734" duration="28254000" />
+      <workItem from="1621605909611" duration="7143000" />
     </task>
     <servers />
   </component>
@@ -115,22 +117,22 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="421" y="136" key="FileChooserDialogImpl/0.40.1280.680@0.40.1280.680" timestamp="1621420094988" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1621523959309">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1621631925770">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.40.1280.680@0.40.1280.680" timestamp="1621523959309" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1621523959309">
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.40.1280.680@0.40.1280.680" timestamp="1621631925770" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1621631925770">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.40.1280.680@0.40.1280.680" timestamp="1621523959309" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1621523959309">
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.40.1280.680@0.40.1280.680" timestamp="1621631925770" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1621631925770">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.40.1280.680@0.40.1280.680" timestamp="1621523959309" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1621523959309">
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.40.1280.680@0.40.1280.680" timestamp="1621631925770" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1621631925770">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.40.1280.680@0.40.1280.680" timestamp="1621523959309" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.40.1280.680@0.40.1280.680" timestamp="1621631925770" />
     <state x="142" y="40" key="SettingsEditor" timestamp="1621522937404">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
